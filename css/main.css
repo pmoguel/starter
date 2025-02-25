@@ -1,3 +1,6 @@
+@import url("https://use.typekit.net/prk1uvr.css");
+@import url("https://use.typekit.net/prk1uvr.css");
+
 html {
     /* 
     * box-sizing
@@ -13,7 +16,7 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family:"Abril";
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -21,6 +24,8 @@ body {
     /* mobile. Tamaño mínimo recomendado */
     font-size: 14px;
     line-height: 1.4em;
+    background-color: #0E3D59;
+    color: #f9fafecf;
 }
 
 /* Laptop / Tablet */
@@ -39,6 +44,8 @@ body {
 
 
 h1 {
+    color: #9f3333;
+    font-family: "Condor";
     font-size: 2.5rem;
     line-height: 1.14em;
 }
@@ -60,7 +67,8 @@ nav ul li {
 }
 
 a {
-    color: #000;
+    font-family: "Condor";
+    color: #2D77A6;
     font-weight: 600;
     text-decoration: none;
     padding: 0.25em .5em;
